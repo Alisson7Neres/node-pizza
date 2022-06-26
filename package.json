@@ -1,0 +1,22 @@
+{
+  "name": "pizza",
+  "version": "1.0.0",
+  "description": "Pizzaria",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alisson7Neres/node-pizza.git"
+  },
+  "author": "Alisson7Neres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alisson7Neres/node-pizza/issues"
+  },
+  "homepage": "https://github.com/Alisson7Neres/node-pizza#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

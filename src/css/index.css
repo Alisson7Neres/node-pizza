@@ -1,0 +1,46 @@
+html, * {
+    margin: 0px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+ul {
+    display: flex;
+    background-color: black;
+    border-bottom: 2px solid red;
+ 
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 2px;
+    color:whitesmoke;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    padding: 100px;
+}
+
+label {
+    margin: 100px;
+}
+
+div {
+    bottom: 0px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
