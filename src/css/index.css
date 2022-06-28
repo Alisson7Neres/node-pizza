@@ -26,11 +26,12 @@ h1 {
     padding: 100px;
 }
 
-label {
+.fse {
     margin: 100px;
+    font-size: x-large;
 }
 
-div {
+.footer {
     bottom: 0px;
     position: fixed;
     text-align: center;
@@ -42,5 +43,45 @@ div {
 a {
     color: whitesmoke;
     text-decoration: none;
+}
+
+.escolha {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+input {
+    padding: 2px;
+}
+
+form {
+    display: flex;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+select {
+    margin: 20px;
+    font-weight: bold;
+    border: none;
+    padding: 2px 5px;
+    color: whitesmoke;
+    background-color: #04AA6D;
 }
 

@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Página Inicial</title>
-    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/index.css" />
+
+    <script src="js/index.js"></script>
+
 </head>
+
 <body>
 
     <ul>
@@ -12,15 +17,77 @@
         <li>Contato</li>
     </ul>
 
-        <h1>Pizzaria Delivery</h1>
+    <h1>Pizzaria Delivery</h1>
 
-    <label>Faça a sua escolha:</label>
+    <label class="fse">Faça a sua escolha:</label>
+
+    <table id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Sabores</th>
+                <th>Ingredientes</th>
+                <th>preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox" name="calabresa"></td>
+                <td>Calabresa</td>
+                <td>Mussarela, calabresa e orégano</td>
+                <td>$ 37,99</tr>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="presunto"></td>
+                <td>Presunto</td>
+                <td>Mussarela, presunto e orégano</td>
+                <td>$ 33,99</tr>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="quatroqueijos"></td>
+                <td>Quatro Queijos</td>
+                <td>Mussarela, gorgonzola, parmesão, catupiry e orégano</td>
+                <td>$ 30,99</tr>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="frango"></td>
+                <td>Frango Com Catupiry</td>
+                <td>Mussarela, frango, catupiry e orégano</td>
+                <td>$ 42,99</tr>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="chocolate"></td>
+                <td>Chocolate Com Banana</td>
+                <td>Mussarela, leite condensado, banana e chocolate</td>
+                <td>$ 64,99</tr>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="prestigio"></td>
+                <td>Prestigio</td>
+                <td>Mussarela, leite condensado e prestigio</td>
+                <td>$ 70,99</tr>
+            </tr>
+        </tbody>
+    </table>
+
+    <td>
+        <select>
+            <option>---SELECIONE---</option>
+            <option>SEM BORDA RECHEADA</option>
+            <option>DOCE DE LEITE</option>
+            <option>4 QUEIJOS</option>
+            <option>CHEDDAR</option>
+            <option>CATUPIRY</option>
+            <option>CHOCOLATE</option>
+            <option>CHEDDAR E BACON</option>
+        </select>
+    </td>
 
 
 
-    <div>
+    <div class="footer">
         <a href="https://github.com/Alisson7Neres/node-pizza" target="_blank">GitHub@Alisson7Neres</a>
     </div>
-    
 </body>
+
 </html>
