@@ -1,4 +1,5 @@
-html, * {
+html,
+* {
     margin: 0px;
 }
 
@@ -10,14 +11,14 @@ ul {
     display: flex;
     background-color: black;
     border-bottom: 2px solid red;
- 
+
 }
 
 li {
     list-style-type: none;
     padding: 10px;
     margin: 2px;
-    color:whitesmoke;
+    color: whitesmoke;
     font-weight: bold;
 }
 
@@ -64,16 +65,20 @@ table {
     border: 1px solid #ddd;
 }
 
-tr:nth-child(even){background-color: #f2f2f2;}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
 
-tr:hover {background-color: #ddd;}
+tr:hover {
+    background-color: #ddd;
+}
 
 th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #04AA6D;
-  color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
 }
 
 select {
@@ -85,3 +90,10 @@ select {
     background-color: #04AA6D;
 }
 
+button {
+    border: none;
+    margin: 20px;
+    background-color: #bb4a4a;
+    color: white;
+    padding: 15px 32px;
+}
