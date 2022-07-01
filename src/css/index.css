@@ -53,7 +53,11 @@ a {
 }
 
 input {
-    padding: 2px;
+       width: 100%;
+}
+
+.input {
+    width: 100%;
 }
 
 form {
@@ -90,10 +94,47 @@ select {
     background-color: #04AA6D;
 }
 
-button {
+.a {
     border: none;
     margin: 20px;
     background-color: #bb4a4a;
     color: white;
     padding: 15px 32px;
+
+}
+
+.a2 {
+    border: none;
+    margin: 20px;
+    background-color: #bb4a4a;
+    color: white;
+    padding: 15px 32px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form {
+    display: inline-block;
+    margin: 20px;
+}
+
+input {
+    margin: 6px;
+}
+
+.body {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 20px;
+    left: 500px;
+    position: absolute;
+}
+
+h3 {
+    justify-content: space-around;
+    display: flex;
 }
