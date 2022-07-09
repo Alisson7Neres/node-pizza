@@ -13,8 +13,7 @@
 <body>
 
     <ul>
-        <li>Inicial</li>
-        <li>Contato</li>
+        <a href="https://www.linkedin.com/in/alisson-neres-ribeiro-71b2961a0/" target="blank"><li>Contato</li></a>
     </ul>
 
     <h1>Pizzaria Delivery</h1>
@@ -86,7 +85,7 @@
         <tbody>
             <tr>
                 <td>SEM BORDA RECHEADA</td>
-                <td><input type="checkbox"></input></td>
+                <td><input type="checkbox" value="0.00"></input></td>
                 <td></td>
                 <td>R$ 00,00</td>
             </tr>
@@ -187,27 +186,27 @@
         <div>
             <div>
                 <label>Nome:</label>
-                <input id="nome" name="nome" class="input">
+                <input id="nome" name="nome" class="input" required>
             </div>
             <div>
                 <label>Telefone:</label>
-                <input id="telefone" name="telefone" class="input">
+                <input id="telefone" name="telefone" class="input" required>
             </div>
             <div>
                 <label>CEP:</label>
-                <input id="cep" name="cep" onchange="viaCep();" class="input">
+                <input id="cep" name="cep" onchange="viaCep();" class="input" required>
             </div>
             <div>
                 <label>Logradouro:</label>
-                <input id="logradouro" name="logradouro" class="input">
+                <input id="logradouro" name="logradouro" class="input" required>
             </div>
             <div>
                 <label>Bairro:</label>
-                <input id="bairro" name="bairro" class="input">
+                <input id="bairro" name="bairro" class="input" required>
             </div>
             <div>
                 <label>Complemento:</label>
-                <input id="complemento" name="complemento" class="input">
+                <input id="complemento" name="complemento" class="input" required>
             </div>
         </div>
 
@@ -223,6 +222,7 @@
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
 <script>
 
     function viaCep() {
@@ -261,9 +261,13 @@
             document.querySelector('.resultado').innerHTML = 'Valores a serem pagos: R$' + values
         }
     }
+
+    $('#cep').mask('99999-999');
+    $('#telefone').mask('(99) 9 9999-9999');
+
 </script>
 
-<a class="a">Finalizar</a>
+<a class="a" href="pages/pedido.html">Finalizar</a>
 
 <br><br><br><br>
 <div class="footer">
